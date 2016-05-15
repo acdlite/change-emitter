@@ -1,6 +1,9 @@
 change-emitter
 ==============
 
+[![build status](https://img.shields.io/travis/acdlite/change-emitter/master.svg?style=flat-square)](https://travis-ci.org/acdlite/change-emitter)
+[![npm version](https://img.shields.io/npm/v/change-emitter.svg?style=flat-square)](https://www.npmjs.com/package/change-emitter)
+
 Listen for changes. Like an event emitter that only emits a single event type. Really tiny.
 
 I extracted this from Redux's `createStore()` because I found it to be useful in other contexts. Use it where you want the most minimal event subscription implementation possible.
