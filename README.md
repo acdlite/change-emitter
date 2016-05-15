@@ -20,9 +20,9 @@ const unlisten = emitter.listen((...args) => {
   console.log(args)
 })
 
-emitter.log(1, 2, 3) // logs `[1, 2, 3]`
+emitter.emit(1, 2, 3) // logs `[1, 2, 3]`
 unlisten()
-emitter.log(4, 5, 6) // doesn't log
+emitter.emit(4, 5, 6) // doesn't log
 ```
 
 ## Larger example
