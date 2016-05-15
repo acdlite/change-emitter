@@ -34,10 +34,6 @@ const createStore = (reducer, initialState) => {
   let state = initialState
   const emitter = createChangeEmitter()
 
-  function subscribe(listener) {
-    return emitter.listen(listener)
-  }
-
   function dispatch(action) {
     state = reducer(state, action)
     emitter.emit()
@@ -49,9 +45,9 @@ const createStore = (reducer, initialState) => {
   }
 
   return {
-    subscribe,
     dispatch,
-    getState
+    getState,
+    subscribe: emitter.listen
   }
 }
 ```
