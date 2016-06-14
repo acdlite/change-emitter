@@ -10,6 +10,10 @@
     "test:watch": "npm run test -- --watch",
     "prepublish": "npm run check && npm run test && npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acdlite/change-emitter.git"
+  },
   "keywords": [
     "change",
     "event",
@@ -17,6 +21,10 @@
   ],
   "author": "Andrew Clark <acdlite@me.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acdlite/change-emitter/issues"
+  },
+  "homepage": "https://github.com/acdlite/change-emitter#readme",
   "devDependencies": {
     "ava": "^0.14.0",
     "babel-cli": "^6.8.0",
