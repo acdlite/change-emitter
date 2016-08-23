@@ -35,11 +35,6 @@
     "eslint-plugin-import": "^1.8.0",
     "sinon": "^1.17.4"
   },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
-  },
   "ava": {
     "babel": "inherit",
     "files": [
