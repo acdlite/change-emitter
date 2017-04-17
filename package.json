@@ -1,6 +1,6 @@
 {
   "name": "change-emitter",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Listen for changes. Like an event emitter that only emits a single event type. Really tiny.",
   "main": "lib/index.js",
   "files": [
