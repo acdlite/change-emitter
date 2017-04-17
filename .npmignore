@@ -1,1 +1,3 @@
 coverage
+.babelrc
+__tests__
